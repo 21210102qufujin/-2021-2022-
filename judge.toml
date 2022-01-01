@@ -1,0 +1,6 @@
+[jobs.inline]
+image = { source = "dockerfile", path = "."}
+
+run = [
+   "java -cp dst/:src/antlr-4.9.2-complete.jar:src/ lab7_1 $input $ir",
+]
