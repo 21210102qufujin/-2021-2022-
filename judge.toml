@@ -1,4 +1,4 @@
-[jobs.inline]
+[jobs.lab7]
 image = { source = "dockerfile", path = "."}
 
 run = [
